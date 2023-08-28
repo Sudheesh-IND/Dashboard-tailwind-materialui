@@ -1,0 +1,31 @@
+<div class="flex justify-evenly">
+    <mat-card class="w-full text-center h-42 m-4">
+        <mat-card-content>
+          <app-card-transactions
+          title="Income"
+          total="1500000"></app-card-transactions>  
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="w-full text-center h-42 m-4">
+        <mat-card-content>
+         <app-card-transactions
+         title="Expenditure"
+         total="50000"></app-card-transactions>
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="w-full text-center h-42 m-4">
+        <mat-card-content>
+          <app-card-transactions
+          title="Profit"
+          total="1000000"></app-card-transactions>
+        </mat-card-content>
+      </mat-card>
+</div>
+<div class="flex justify-between mt-8">
+  <div class="p-1">
+    <app-transaction-bar-chart></app-transaction-bar-chart>
+ </div>
+ <div class="p-1">
+  <app-transaction-pie-chart></app-transaction-pie-chart>
+ </div>
+</div>

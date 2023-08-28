@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "Brand": "maruti suzuki",
+      "image": "https://th.bing.com/th/id/OIP.FGG1BDdYP-x-28soT-sXwwHaE6?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+      "id": "2",
+      "Brand": "Hyundai",
+      "image": "https://th.bing.com/th?id=OIP.B5sHrfJNQIW0IAQCZeWjZwHaFC&w=303&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "4",
+      "Brand": "Tata",
+      "image": "https://cdni.autocarindia.com/ExtraImages/20180607054258_Tata-Hexa-Downtown.jpg"
+    },
+    {
+      "id": "5",
+      "Brand": "MG Motors",
+      "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https:%2f%2fcdni.autocarindia.com%2fExtraImages%2f20190718124653_MG-Hector-black-front.jpg&h=795&w=1200&c=0"
+    },
+    {
+      "id": "6",
+      "Brand": "Kia",
+      "image": "https://driver.pk/wp-content/uploads/2017/07/KIA-Sportage.jpg"
+    },
+    {
+      "id": "7",
+      "Brand": "Nissan",
+      "image": "https://i0.wp.com/www.repairerdrivennews.com/wp-content/uploads/2015/09/nissan-altima-sr-2016.jpg"
+    },
+    {
+      "id": "9",
+      "Brand": "Jaguar",
+      "image": "https://th.bing.com/th?id=OIP.ZkT44nFE4g2GWVYoBnsWYAHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    }
+  ],
+  "employeees": [
+    {
+      "id": "1",
+      "Name": "John",
+      "image": "https://th.bing.com/th/id/OIP.wD0U6PXg-iDh1hJ0qasZrQHaEW?w=272&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "Role": "Manager"
+    },
+    {
+      "id": "2",
+      "Name": "Victor",
+      "image": "https://th.bing.com/th/id/OIP.eVI6Ix4J3jlblILo1pOYSQHaE7?w=306&h=204&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "Role": "Assistant Manager"
+    }
+  ]
+}

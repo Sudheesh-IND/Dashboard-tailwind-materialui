@@ -1,0 +1,12 @@
+<div class="w-full h-full  grid place-content-center mt-36 ">
+    <div class="w-96 h-full bg-slate-50 p-5 shadow-lg">
+       <form class="shadow-2xl p-5 bg-sky-300 text-center" action="">
+           <input [(ngModel)]="employeeDetails.id" name="id" class="w-full border-0 focus:outline-0 h-9 p-3 rounded-3xl" type="text" placeholder="Enter id">
+           <input [(ngModel)]="employeeDetails.Name" name="Name" class="w-full border-0 focus:outline-0 h-9 p-3 mt-10  rounded-3xl" type="text" placeholder="Enter Name">
+           <input [(ngModel)]="employeeDetails.image"  name="image" class="w-full border-0 focus:outline-0 h-9 p-3 mt-10  rounded-3xl" type="text" placeholder="Image url">
+           <input [(ngModel)]="employeeDetails.Role"  name="Role" class="w-full border-0 focus:outline-0 h-9 p-3 mt-10  rounded-3xl" type="text" placeholder="Role">
+
+           <button (click)="addEmployee()" class="text-white bg-slate-800 mt-10 mb-8 hover:bg-white hover:text-black">Submit</button>
+       </form>
+    </div>
+</div>

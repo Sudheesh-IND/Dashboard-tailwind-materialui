@@ -1,0 +1,10 @@
+<div class="w-full h-full  grid place-content-center mt-40 ">
+     <div class="w-96 h-96 bg-slate-50 p-5 shadow-lg">
+        <form class="shadow-2xl p-5 bg-sky-300 text-center" action="">
+            <input [(ngModel)]="brandDetails.id" name="id" class="w-full border-0 focus:outline-0 h-9 p-3 rounded-3xl" type="text" placeholder="Enter id">
+            <input [(ngModel)]="brandDetails.Brand" name="Brand" class="w-full border-0 focus:outline-0 h-9 p-3 mt-10  rounded-3xl" type="text" placeholder="Brand Name">
+            <input [(ngModel)]="brandDetails.image"  name="image" class="w-full border-0 focus:outline-0 h-9 p-3 mt-10  rounded-3xl" type="text" placeholder="Image url">
+            <button (click)="addBrands()" class="text-white bg-slate-800 mt-10 mb-8 hover:bg-white hover:text-black">Submit</button>
+        </form>
+     </div>
+</div>
